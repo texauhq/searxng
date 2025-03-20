@@ -13,7 +13,7 @@ search:
 server:
   # Is overwritten by ${SEARXNG_SECRET}
   secret_key: "ultrasecretkey"
-  limiter: true
+  limiter: false
   image_proxy: true
   # public URL of the instance, to ensure correct inbound links. Is overwritten
   # by ${SEARXNG_URL}.
